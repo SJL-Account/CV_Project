@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/10/23 16:09:01。
+     1>项目“J:\C++\ImageProcess\ImageProcess\ImageProcess.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "图像降噪.cpp"
+         图像降噪.cpp
+     1>j:\c++\imageprocess\imageprocess\dip.h(246): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>j:\c++\imageprocess\imageprocess\dip.h(333): warning C4018: “<”: 有符号/无符号不匹配
+     1>j:\c++\imageprocess\imageprocess\图像降噪.cpp(1): warning C4103: “j:\c++\imageprocess\imageprocess\图像降噪.cpp”: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
+     1>j:\c++\imageprocess\imageprocess\图像降噪.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+     1>j:\c++\imageprocess\imageprocess\图像降噪.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>j:\c++\imageprocess\imageprocess\图像降噪.cpp(79): warning C4018: “<”: 有符号/无符号不匹配
+     1>j:\c++\imageprocess\imageprocess\图像降噪.cpp(80): warning C4018: “<”: 有符号/无符号不匹配
+     1>j:\c++\imageprocess\imageprocess\图像降噪.cpp(145): warning C4018: “<”: 有符号/无符号不匹配
+     1>j:\c++\imageprocess\imageprocess\图像降噪.cpp(146): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\C++\ImageProcess\Debug\ImageProcess.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\C++\ImageProcess\Debug\ImageProcess.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\C++\ImageProcess\Debug\ImageProcess.lib" /MACHINE:X86 Debug\start.obj
+         "Debug\代数运算.obj"
+         "Debug\图像分割.obj"
+         "Debug\图像增强.obj"
+         "Debug\图像降噪.obj"
+         "Debug\源1.obj"
+         ImageProcess.vcxproj -> J:\C++\ImageProcess\Debug\ImageProcess.exe
+     1>已完成生成项目“J:\C++\ImageProcess\ImageProcess\ImageProcess.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.13
